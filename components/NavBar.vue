@@ -32,7 +32,7 @@
   <style scoped>
   /* Add any custom styles here */
   .container {
-    max-width: 1500px;
+    max-width: 78.125vw;;
     margin: 0 auto;
   }
   </style>
