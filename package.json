@@ -1,0 +1,25 @@
+{
+  "name": "innovexa",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "consola": "^3.2.3",
+    "core-js": "^3.25.3",
+    "nuxt": "^3.11.2",
+    "ufo": "^1.5.3",
+    "vite": "^5.2.10",
+    "vue": "^3.4.25",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^5.3.3",
+    "postcss": "^8.4.17"
+  }
+}
