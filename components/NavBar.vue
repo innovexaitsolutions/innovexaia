@@ -4,7 +4,7 @@
         <!-- Left side of the navbar -->
         <div>
           <!-- Your logo or brand name can go here -->
-          <span class="text-lg font-bold">Innovexa</span>
+          <span class="text-xl font-bold">INNOVEXA</span>
         </div>
         
         <!-- Center of the navbar -->
@@ -32,7 +32,7 @@
   <style scoped>
   /* Add any custom styles here */
   .container {
-    max-width: 960px;
+    max-width: 1500px;
     margin: 0 auto;
   }
   </style>

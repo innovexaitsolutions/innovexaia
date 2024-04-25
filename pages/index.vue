@@ -4,12 +4,12 @@
     <section class="hero py-16 bg-gray-100 relative">
       <div class="container mx-auto px-4 flex items-center">
         <div class="w-full text-start">
-          <div>
-            <h2 class="text-4xl md:text-5xl font-bold mb-4">About Innovexa IT Solutions</h2>
-            <p class="text-lg md:text-xl mb-8">
+          <div class="flex flex-col align-center">
+            <h2 class="text-4xl md:text-6xl font-bold mb-8 t text-center">About Innovexa IT Solutions</h2>
+            <p class="text-lg md:text-2xl mb-8 text-center">
               Innovexa IT Solutions is a leading solutions provider, dedicated to delivering
-              innovative solutions to clients. We are committed to providing efficient,
-              reliable, and customized technology solutions to businesses, helping them
+              innovative solutions to clients. <br>We are committed to providing efficient,
+              reliable, and customized technology solutions to businesses, <br>helping them
               achieve their business goals and enhance competitiveness.
             </p>
             <!-- Add any additional content here -->
@@ -19,23 +19,25 @@
     </section>
 
     <!-- Section 2 - Left-aligned image -->
-    <section class="py-8">
-      <div class="container mx-auto px-4 flex items-center">
+    <section class="py-8 bg-gray-50">
+      <div class="w-full text-center my-20">
+        <h2 class="text-6xl font-bold text-[#333333]">Our Business</h2>
+      </div>
+      <div class="container mx-auto px-4 flex items-center gap-8 mb-20">
         <div class="w-1/2">
-          <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg" alt="Left Image" class="w-full">
+          <!-- Image by freepik -->
+          <img src="/public/index/eye.jpg" alt="Left Image" class="left-img">
         </div>
         <div class="w-1/2">
-          <h2 class="text-3xl font-bold mb-4">Our Business</h2>
-          <p class="text-lg">
-            Providing Professional Stock Information Consulting Services
-          </p>
-          <p class="text-lg">
+          <h2 class="text-4xl font-bold mb-6 text-[#7b97ca]">Providing Professional Stock Information Consulting Services</h2>
+          <p class="text-lg text-justify leading-6">
             We provide stock advisory services, covering US stock information, industry
             trends, economic data, financial news, etc. We are committed to offering you
             comprehensive market analysis and investment advice to assist you in making wise
             investment decisions.
           </p>
-          <p class="text-lg">
+          <br>
+          <p class="text-lg text-justify leading-6">
             Whether you are a novice investor or an experienced trader, we can provide you
             with customized services to meet your needs and goals. With our professional
             team and extensive information resources, you will be able to better understand
@@ -47,47 +49,89 @@
     </section>
 
     <!-- Section 3 - Right-aligned image -->
-    <section class="py-8 bg-gray-100">
-      <div class="container mx-auto px-4 flex items-center">
+    <section class="py-8 bg-slate-700">
+      <div class="w-full text-center my-20">
+        <h2 class="text-6xl font-bold text-[#ffffff]">The Information of US Stocks</h2>
+      </div>
+      <div class="container mx-auto px-4 flex items-center gap-8 mb-20">
         <div class="w-1/2">
-          <h2 class="text-3xl font-bold mb-4">The Information of US Stocks</h2>
-          <p class="text-lg">
+          <h2 class="text-4xl font-bold mb-6 text-[#7b97ca]">What are US Stocks?</h2>
+          <p class="text-lg text-justify leading-6 text-[#ffffff]">
             US Stocks refers to stocks or shares of publicly traded companies that are
             listed on stock exchanges in the United States, such as the New York Stock
             Exchange (NYSE) or the NASDAQ Stock Market.
           </p>
-          <p class="text-lg">
+          <br>
+          <p class="text-lg text-justify leading-6 text-[#ffffff]">
             These stocks represent ownership stakes in companies and can be bought and sold
             by investors through brokerage firms.
           </p>
-          <p class="text-lg">
+          <br>
+          <p class="text-lg text-justify leading-6 text-[#ffffff]">
             Investing in US stocks provides individuals with the opportunity to participate
             in the ownership and potential profits of American companies.
           </p>
         </div>
         <div class="w-1/2">
-          <img src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg" alt="Right Image" class="w-full">
+          <img src="/public/index/stocks.jpg" alt="Right Image" class="right-img">
         </div>
       </div>
     </section>
 
-    <!-- Section 4 - Left-aligned image -->
-    <section class="py-8">
-      <div class="container mx-auto px-4 flex items-center">
-        <div class="w-1/2">
-          <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg" alt="Left Image" class="w-full">
+    <section class="py-8 bg-gray-50">
+      <div class="w-full text-center my-20">
+        <h2 class="text-6xl font-bold text-[#333333]">Why invest in the U.S. Market?</h2>
+      </div>
+      <div class="container mx-auto px-4 mb-20">
+        <div class="w-full flex gap-8 mt-24">
+          <div class="w-1/3 card-item yellow">
+            <div class="w-full flex flex-col justify-center items-center gap-8">
+              <img src="/public/index/capitalization.svg" alt="icon" class="icon i-yellow">
+              <p class="text-2xl font-bold text-[#333333]">Better Capitalization</p>
+            </div>
+          </div>
+          <div class="w-1/3 card-item blue">
+            <div class="w-full flex flex-col justify-center items-center gap-8">
+              <img src="/public/index/liquid.svg" alt="icon" class="icon i-blue">
+              <p class="text-2xl font-bold text-[#333333]">More Liquidity</p>
+            </div>
+          </div>
+          <div class="w-1/3 card-item green">
+            <div class="w-full flex flex-col justify-center items-center gap-8">
+              <img src="/public/index/list.svg" alt="icon" class="icon i-green">
+              <p class="text-2xl font-bold text-[#333333]">Greater Diversification</p>
+            </div>
+          </div>
         </div>
-        <div class="w-1/2">
-          <h2 class="text-3xl font-bold mb-4">Why invest in the U.S. Market?</h2>
-          <ul class="list-disc pl-6">
-            <li class="text-lg">Better capitalization</li>
-            <li class="text-lg">More liquidity</li>
-            <li class="text-lg">Greater diversification</li>
-            <li class="text-lg">Market transparency</li>
-            <li class="text-lg">Lower currency risk</li>
-            <li class="text-lg">Innovation</li>
-          </ul>
+        <div class="w-full flex gap-8 mt-8">
+          <div class="w-1/3 card-item red">
+            <div class="w-full flex flex-col justify-center items-center gap-8">
+              <img src="/public/index/market.svg" alt="icon" class="icon i-red">
+              <p class="text-2xl font-bold text-[#333333]">Market Transparency</p>
+            </div>
+          </div>
+          <div class="w-1/3 card-item purple">
+            <div class="w-full flex flex-col justify-center items-center gap-8">
+              <img src="/public/index/low.svg" alt="icon" class="icon i-purple">
+              <p class="text-2xl font-bold text-[#333333]">Lower Currency Risk</p>
+            </div>
+          </div>
+          <div class="w-1/3 card-item pink">
+            <div class="w-full flex flex-col justify-center items-center gap-8">
+              <img src="/public/index/bulb.svg" alt="icon" class="icon i-pink">
+              <p class="text-2xl font-bold text-[#333333]">Innovation</p>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <section class="py-8 bg-[#7b97ca]">
+      <div class="w-full text-center my-20">
+        <h2 class="text-6xl font-bold text-[#ffffff]">CONTACT US</h2>
+      </div>
+      <div class="container mx-auto px-4 flex items-center gap-8 mb-20">
+       <p class="text-lg">B-15-2, 3, 4, Northpoint Mid Valley, Jalan Medan Syed Putra Utara, 59200 Kuala Lumpur.</p>
       </div>
     </section>
   </div>
@@ -102,7 +146,8 @@ export default {
 <style scoped>
 /* Add any custom styles here */
 .container {
-  max-width: 960px;
+  max-width: 1500px;
+  height: 100%;
 }
 
 /* Adjust styles for images */
@@ -114,19 +159,101 @@ img {
 
 .hero {
   /* Adjust the height of the hero section */
-  height: 500px;
-  background-image: url('https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg');
+  height: 650px;
+  background: url(/public/index/laptop.jpg) no-repeat;
+  background-size: cover;
   color: #ffffff;
+}
+
+.hero::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  opacity: .4; 
+  z-index: 1;
 }
 
 .hero h2 {
   /* Adjust font size and spacing */
-  letter-spacing: -0.025em;
+  /* letter-spacing: -0.025em; */
+  position: relative;
+  z-index: 2;
 }
 
 .hero p {
   /* Adjust font size and line height */
   line-height: 1.5;
+  position: relative;
+  z-index: 2;
 }
 
+.left-img{
+  width: 648px;
+  height: 486px;
+  object-fit: cover;
+}
+
+.right-img{
+  width: 648px;
+  height: 486px;
+  object-fit: cover;
+  float: right;
+}
+
+.icon{
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.i-blue{
+  filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
+}
+.i-yellow{
+  filter: invert(0.5) sepia(1) saturate(5) hue-rotate(10deg);
+}
+.i-green{
+  filter: invert(0.5) sepia(1) saturate(5) hue-rotate(100deg);
+}
+
+.i-red{
+  filter: invert(0.5) sepia(1) saturate(5) hue-rotate(320deg);
+}
+.i-purple{
+  filter: invert(0.5) sepia(1) saturate(5) hue-rotate(220deg);
+}
+.i-pink{
+  filter: invert(0.5) sepia(1) saturate(5) hue-rotate(275deg);
+}
+
+.card-item{
+  padding: 60px 30px;
+  border-radius: 8px;
+  border: 1px solid white;
+  background-color: #eeeeee;
+}
+
+.card-item.blue:hover{
+  border: 1px solid #7ba0ca;
+}
+.card-item.yellow:hover{
+  border: 1px solid #cabb7b;
+}
+.card-item.green:hover{
+  border: 1px solid #98ca7b;
+}
+
+.card-item.red:hover{
+  border: 1px solid #ca7b7b;
+}
+.card-item.purple:hover{
+  border: 1px solid #877bca;
+}
+.card-item.pink:hover{
+  border: 1px solid #ca7ba9;
+}
 </style>
