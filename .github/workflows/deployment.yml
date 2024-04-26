@@ -6,10 +6,10 @@ on:
   workflow_dispatch:
 
 jobs:
-  deploy-gd-global:
+  deploy-innovexa:
     runs-on: ubuntu-latest
     steps:
-      - name: ssh to gd-global server to pull latest version and restart
+      - name: ssh to innovexa server to pull latest version and restart
         uses: appleboy/ssh-action@master
         with:
           host: 203.86.233.243
