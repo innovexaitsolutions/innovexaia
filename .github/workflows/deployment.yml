@@ -13,7 +13,7 @@ jobs:
         uses: appleboy/ssh-action@master
         with:
           host: 203.86.233.243
-          username: ubuntu
+          username: root
           port: 22
           key: ${{ secrets.SSH_PRIVATE_KEY_INNOVEXA }}
           script: |
