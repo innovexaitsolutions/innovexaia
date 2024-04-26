@@ -1,7 +1,7 @@
 <template>
     <footer class="py-8 bg-gray-800 text-white text-center">
       <div class="container mx-auto px-4">
-        <p class="text-lg">&copy; Copyright Innovexa. All Rights Reserved</p>
+        <p class="text-xs md:text-sm lg:text-sm xl:text-lg text-[#ffffff]">&copy; Copyright Innovexa. All Rights Reserved</p>
       </div>
     </footer>
   </template>

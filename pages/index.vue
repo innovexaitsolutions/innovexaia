@@ -158,7 +158,7 @@
                 Our Address:
               </p>
             </div>
-            <p class="text-[12px] md:text-base lg:text-[12px] xl:text-[15px] 2xl:text-xl font-bold text-[#333333]">
+            <p class="text-[12px] md:text-base lg:text-[12px] xl:text-[15px] 2xl:text-xl lg:leading-4 xl:leading-normal font-bold text-[#333333]">
               B-15-2, 3, 4, Northpoint Mid Valley, <br />Jalan Medan Syed Putra Utara, 59200 Kuala Lumpur.
             </p>
           </div>
@@ -244,7 +244,6 @@ img {
 
 .hero h2 {
   /* Adjust font size and spacing */
-  /* letter-spacing: -0.025em; */
   position: relative;
   z-index: 2;
 }
