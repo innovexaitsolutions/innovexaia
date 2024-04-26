@@ -5,7 +5,7 @@
       <div class="container mx-auto px-4 flex items-center">
         <div class="w-full text-start">
           <div class="flex flex-col align-center">
-            <h2 class="text-[26px] md:text-3xl lg:text-3xl xl:text-6xl font-bold mb-8 text-left xl:text-center">
+            <h2 class="text-[26px] md:text-4xl lg:text-3xl xl:text-6xl font-bold mb-8 text-left xl:text-center">
               About Innovexa IT Solutions
             </h2>
             <p class="text-lg lg:text-base xl:text-xl 2xl:text-2xl mb-8 text-left xl:text-center">
@@ -24,7 +24,7 @@
     <!-- Section 2 - Left-aligned image -->
     <section class="py-8 bg-gray-50">
       <div class="w-full text-center my-8 lg:my-20">
-        <h2 class="text-[26px] md:text-3xl xl:text-6xl font-bold text-[#333333]">Our Business</h2>
+        <h2 class="text-[26px] md:text-4xl xl:text-6xl font-bold text-[#333333]">Our Business</h2>
       </div>
       <div class="container mx-auto px-4 flex flex-col lg:flex-row items-center gap-4 lg:gap-8 mb-8 lg:mb-20">
         <div class="w-full lg:w-1/2">
@@ -56,7 +56,7 @@
     <!-- Section 3 - Right-aligned image -->
     <section class="py-8 bg-slate-700">
       <div class="w-full text-center my-8 lg:my-20">
-        <h2 class="desktop tablet text-[26px] md:text-3xl xl:text-6xl font-bold text-[#ffffff]">The Information of US Stocks</h2>
+        <h2 class="desktop tablet text-[26px] md:text-4xl xl:text-6xl font-bold text-[#ffffff]">The Information of US Stocks</h2>
         <h2 class="mobile text-[26px] font-bold text-[#ffffff]">The Information of <br /> US Stocks</h2>
       </div>
       <div class="container mx-auto px-4 flex flex-col lg:flex-row items-center gap-4 lg:gap-8 mb-8 lg:mb-20">
@@ -92,7 +92,7 @@
 
     <section class="py-8 bg-gray-50">
       <div class="w-full text-center my-8 lg:my-20">
-        <h2 class="desktop tablet text-[26px] md:text-3xl xl:text-6xl font-bold text-[#333333]">Why invest in the U.S. Market?</h2>
+        <h2 class="desktop tablet text-[26px] md:text-4xl xl:text-6xl font-bold text-[#333333]">Why invest in the U.S. Market?</h2>
         <h2 class="mobile text-[26px] font-bold text-[#333333]">Why invest in the <br /> U.S. Market?</h2>
       </div>
       <div class="container mx-auto px-4 mb-8 lg:mb-20">
@@ -145,16 +145,16 @@
 
     <section class="py-8 bg-[#7b97ca]">
       <div class="w-full text-center my-8 lg:my-20">
-        <h2 class="text-[26px] md:text-3xl xl:text-6xl font-bold text-[#ffffff]">CONTACT US</h2>
+        <h2 class="text-[26px] md:text-4xl xl:text-6xl font-bold text-[#ffffff]">CONTACT US</h2>
       </div>
-      <div class="container mx-auto px-4 flex items-center lg:gap-4 2xl:gap-10 mb-8 lg:mb-20 flex flex-col lg:flex-row contact-cont">
+      <div class="container mx-auto px-4 flex items-center lg:gap-4 2xl:gap-10 mb-8 lg:mb-20 flex-col lg:flex-row contact-cont">
         <div class="w-full lg:w-5/12 xl:w-2/5 flex flex-col lg:justify-between gap-4 items-center lg:h-full">
           <div class="w-full flex flex-col justify-center contact-card">
             <div class="w-full flex items-center gap-2 md:gap-4 mb-2 md:mb-4">
               <img src="/public/image/index/location.svg"
                   alt="icon"
                   class="icon-contact i-darkred">
-              <p class="text-base md:text-xl lg:text-[12px] xl:text-[15px] 2xl:text-xl font-bold text-[#333333]">
+              <p class="text-base md:text-xl lg:text-[16px] xl:text-2xl 2xl:text-3xl font-bold text-[#333333]">
                 Our Address:
               </p>
             </div>
@@ -167,11 +167,11 @@
               <img src="/public/image/index/email.svg"
                   alt="icon"
                   class="icon-contact i-blue">
-              <p class="text-base md:text-2xl lg:text-[16px] xl:text-3xl font-bold text-[#333333]">
+              <p class="text-base md:text-xl lg:text-[16px] xl:text-2xl 2xl:text-3xl font-bold text-[#333333]">
                 Email Us:
               </p>
             </div>
-            <p class="text-[12px] md:text-base lg:text-[12px] xl:text-[15px] 2xl:text-xl font-bold text-[#333333]">
+            <p class="text-[12px] md:text-base lg:text-[12px] xl:text-[15px] 2xl:text-xl lg:leading-4 xl:leading-normal font-bold text-[#333333]">
               info@innovexaitsolutions.com
             </p>
           </div>
@@ -375,7 +375,7 @@ img {
   }
 
   .contact-card{
-    padding: 30px 8px;
+    padding: 30px 25px;
   }
 
   .contact-cont{
@@ -408,7 +408,17 @@ img {
   }
 
   .contact-cont{
-    height: 110vw;
+    height: 90vw;
+  }
+
+  .contact-card{
+    padding: 30px 25px;
+  }
+
+  .icon-contact{
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
   }
 }
 
