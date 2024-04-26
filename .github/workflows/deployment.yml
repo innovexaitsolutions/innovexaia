@@ -18,8 +18,8 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY_INNOVEXA }}
           script: |
             source ~/.nvm/nvm.sh
-            nvm use 21
-            cd /var/www/gd-global
+            nvm use 18
+            cd /var/www/innovexa
             git pull
             npm install
             npm run build
