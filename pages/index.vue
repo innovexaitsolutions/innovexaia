@@ -1,4 +1,7 @@
 <template>
+<Head>
+    <Title>INNOVEXA</Title>
+  </Head>
   <div>
     <!-- Section 1 - Right-aligned image -->
     <section class="hero py-16 bg-gray-100 relative">
