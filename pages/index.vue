@@ -146,13 +146,13 @@
       </div>
     </section>
 
-    <section class="py-8 bg-[#7b97ca]">
+    <section class="py-8 cta">
       <div class="w-full text-center my-8 lg:my-20">
         <h2 class="text-[26px] md:text-4xl xl:text-6xl font-bold text-[#ffffff]">CONTACT US</h2>
       </div>
-      <div class="container mx-auto px-4 flex items-center lg:gap-4 2xl:gap-10 mb-8 lg:mb-20 flex-col lg:flex-row contact-cont">
-        <div class="w-full lg:w-5/12 xl:w-2/5 flex flex-col lg:justify-between gap-4 items-center lg:h-full">
-          <div class="w-full flex flex-col justify-center contact-card">
+      <div class="container mx-auto px-4 flex lg:gap-4 2xl:gap-10 mb-8 lg:mb-20 flex-col lg:flex-row cont">
+        <div class="w-full flex justify-center">
+          <!-- <div class="w-full flex flex-col justify-center contact-card">
             <div class="w-full flex items-center gap-2 md:gap-4 mb-2 md:mb-4">
               <img src="/public/image/index/location.svg"
                   alt="icon"
@@ -164,9 +164,9 @@
             <p class="text-[12px] md:text-base lg:text-[12px] xl:text-[15px] 2xl:text-xl lg:leading-4 xl:leading-normal font-bold text-[#333333]">
               B-15-2, 3, 4, Northpoint Mid Valley, <br />Jalan Medan Syed Putra Utara, 59200 Kuala Lumpur.
             </p>
-          </div>
-          <div class="w-full flex flex-col justify-center contact-card">
-            <div class="w-full flex items-center gap-2 md:gap-4 mb-2 md:mb-4">
+          </div> -->
+          <div class="w-full md:w-2/3 flex flex-col justify-center contact-card">
+            <div class="w-full flex justify-center items-center gap-2 md:gap-4 mb-2 md:mb-4">
               <img src="/public/image/index/email.svg"
                   alt="icon"
                   class="icon-contact i-blue">
@@ -174,19 +174,19 @@
                 Email Us:
               </p>
             </div>
-            <p class="text-[12px] md:text-base lg:text-[12px] xl:text-[15px] 2xl:text-xl lg:leading-4 xl:leading-normal font-bold text-[#333333]">
+            <p class="text-[12px] md:text-base lg:text-[12px] xl:text-[15px] 2xl:text-xl lg:leading-4 xl:leading-normal text-center font-bold text-[#333333]">
               info@innovexaitsolutions.com
             </p>
           </div>
         </div>
-        <iframe
+        <!-- <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d995.9760589739662!2d101.6770845!3d3.120028!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc498e7b3f64f5%3A0x54f04dce6ddf7aa2!2sNorthpoint!5e0!3m2!1sen!2smy!4v1714040400763!5m2!1sen!2smy"
           style="border: 0"
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
           class="w-full h-1/2 lg:h-full lg:w-7/12 xl:w-3/5 rounded-lg mt-4 lg:mt-0"
-        ></iframe>
+        ></iframe> -->
       </div>
     </section>
   </div>
@@ -344,6 +344,33 @@ img {
   min-height: 10.833vw;
   background-color: #eeeeee;
   box-sizing: border-box;
+}
+
+.cta {
+  /* Adjust the height of the hero section */
+  /* height: 33.854vw; */
+  background: url(/public/image/index/email-img.png) no-repeat;
+  background-size: 100% 100%;
+  color: #ffffff;
+  position: relative;
+}
+
+.cta::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.4;
+  z-index: 1;
+}
+
+.cta h2,
+.cont{
+  position: relative;
+  z-index: 2;
 }
 
 @media screen and (max-width: 767px) {
