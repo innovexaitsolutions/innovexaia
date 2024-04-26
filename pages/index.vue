@@ -1,5 +1,5 @@
 <template>
-<Head>
+  <Head>
     <Title>INNOVEXA</Title>
   </Head>
   <div>
