@@ -147,13 +147,34 @@
       <div class="w-full text-center my-8 lg:my-20">
         <h2 class="text-[26px] md:text-3xl xl:text-6xl font-bold text-[#ffffff]">CONTACT US</h2>
       </div>
-      <div class="container mx-auto px-4 flex items-center gap-8 mb-8 lg:mb-20 flex flex-col content-center">
-        <div class="w-full text-center text-white">
-          <p class="text-lg">
-            B-15-2, 3, 4, Northpoint Mid Valley, Jalan Medan Syed Putra Utara, 59200 Kuala
-            Lumpur.
-          </p>
-          <p class="text-lg">Email: info@innovexaitsolutions.com</p>
+      <div class="container mx-auto px-4 flex items-center lg:gap-4 2xl:gap-10 mb-8 lg:mb-20 flex flex-col lg:flex-row contact-cont">
+        <div class="w-full lg:w-5/12 xl:w-2/5 flex flex-col lg:justify-between gap-4 items-center lg:h-full">
+          <div class="w-full flex flex-col justify-center contact-card">
+            <div class="w-full flex items-center gap-2 md:gap-4 mb-2 md:mb-4">
+              <img src="/public/image/index/location.svg"
+                  alt="icon"
+                  class="icon-contact i-darkred">
+              <p class="text-base md:text-xl lg:text-[12px] xl:text-[15px] 2xl:text-xl font-bold text-[#333333]">
+                Our Address:
+              </p>
+            </div>
+            <p class="text-[12px] md:text-base lg:text-[12px] xl:text-[15px] 2xl:text-xl font-bold text-[#333333]">
+              B-15-2, 3, 4, Northpoint Mid Valley, <br />Jalan Medan Syed Putra Utara, 59200 Kuala Lumpur.
+            </p>
+          </div>
+          <div class="w-full flex flex-col justify-center contact-card">
+            <div class="w-full flex items-center gap-2 md:gap-4 mb-2 md:mb-4">
+              <img src="/public/image/index/email.svg"
+                  alt="icon"
+                  class="icon-contact i-blue">
+              <p class="text-base md:text-2xl lg:text-[16px] xl:text-3xl font-bold text-[#333333]">
+                Email Us:
+              </p>
+            </div>
+            <p class="text-[12px] md:text-base lg:text-[12px] xl:text-[15px] 2xl:text-xl font-bold text-[#333333]">
+              info@innovexaitsolutions.com
+            </p>
+          </div>
         </div>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d995.9760589739662!2d101.6770845!3d3.120028!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc498e7b3f64f5%3A0x54f04dce6ddf7aa2!2sNorthpoint!5e0!3m2!1sen!2smy!4v1714040400763!5m2!1sen!2smy"
@@ -161,7 +182,7 @@
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-          class="w-full h-[350px] xl:w-[1000px] xl:h[500px]"
+          class="w-full h-1/2 lg:h-full lg:w-7/12 xl:w-3/5 rounded-lg mt-4 lg:mt-0"
         ></iframe>
       </div>
     </section>
@@ -254,6 +275,12 @@ img {
   object-fit: contain;
 }
 
+.icon-contact{
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
 .i-blue {
   filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
 }
@@ -272,6 +299,10 @@ img {
 }
 .i-pink {
   filter: invert(0.5) sepia(1) saturate(5) hue-rotate(275deg);
+}
+
+.i-darkred {
+  filter: invert(0.4) sepia(0.5) saturate(100) hue-rotate(340deg);
 }
 
 .card-item {
@@ -301,6 +332,18 @@ img {
   border: 1px solid #ca7ba9;
 }
 
+.contact-cont{
+  height: 23.541vw;
+}
+
+.contact-card{
+  padding: 50px 25px;
+  border-radius: 8px;
+  min-height: 10.833vw;
+  background-color: #eeeeee;
+  box-sizing: border-box;
+}
+
 @media screen and (max-width: 767px) {
   .desktop{
     display: none;
@@ -324,6 +367,20 @@ img {
     width: 100%;
     height: 45.462vw;
     object-fit: cover;
+  }
+
+  .icon-contact{
+    width: 23px;
+    height: 23px;
+    object-fit: contain;
+  }
+
+  .contact-card{
+    padding: 30px 8px;
+  }
+
+  .contact-cont{
+    height: 150vw;
   }
 }
 
@@ -349,6 +406,22 @@ img {
     width: 100%;
     height: 45.462vw;
     object-fit: cover;
+  }
+
+  .contact-cont{
+    height: 110vw;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .icon-contact{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+  }
+
+  .contact-cont{
+    height: 35.541vw;
   }
 }
 </style>
