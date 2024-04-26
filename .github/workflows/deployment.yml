@@ -1,0 +1,26 @@
+name: deployment
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy-gd-global:
+    runs-on: ubuntu-latest
+    steps:
+      - name: ssh to gd-global server to pull latest version and restart
+        uses: appleboy/ssh-action@master
+        with:
+          host: 203.86.233.243
+          username: ubuntu
+          port: 22
+          key: ${{ secrets.SSH_PRIVATE_KEY_INNOVEXA }}
+          script: |
+            source ~/.nvm/nvm.sh
+            nvm use 21
+            cd /var/www/gd-global
+            git pull
+            npm install
+            npm run build
+            pm2 restart all
