@@ -5,10 +5,10 @@
       <div class="container mx-auto px-4 flex items-center">
         <div class="w-full text-start">
           <div class="flex flex-col align-center">
-            <h2 class="text-4xl lg:text-3xl xl:text-6xl font-bold mb-8 t text-center">
+            <h2 class="text-[26px] md:text-3xl lg:text-3xl xl:text-6xl font-bold mb-8 text-left xl:text-center">
               About Innovexa IT Solutions
             </h2>
-            <p class="text-lg md:text-[12px] lg:text-base 2xl:text-2xl mb-8 text-center">
+            <p class="text-lg lg:text-base xl:text-xl 2xl:text-2xl mb-8 text-left xl:text-center">
               Innovexa IT Solutions is a leading solutions provider, dedicated to
               delivering innovative solutions to clients. <br />We are committed to
               providing efficient, reliable, and customized technology solutions to
@@ -23,26 +23,26 @@
 
     <!-- Section 2 - Left-aligned image -->
     <section class="py-8 bg-gray-50">
-      <div class="w-full text-center my-20">
-        <h2 class="text-4xl lg:text-3xl 2xl:text-6xl font-bold text-[#333333]">Our Business</h2>
+      <div class="w-full text-center my-8 lg:my-20">
+        <h2 class="text-[26px] md:text-3xl xl:text-6xl font-bold text-[#333333]">Our Business</h2>
       </div>
-      <div class="container mx-auto px-4 flex items-center gap-8 mb-20">
-        <div class="w-1/2">
+      <div class="container mx-auto px-4 flex flex-col lg:flex-row items-center gap-4 lg:gap-8 mb-8 lg:mb-20">
+        <div class="w-full lg:w-1/2">
           <!-- Image by freepik -->
-          <img src="/public/index/eye.jpg" alt="Left Image" class="left-img" />
+          <img src="/public/image/index/eye.jpg" alt="Left Image" class="left-img" />
         </div>
-        <div class="w-1/2">
-          <h2 class="text-xs md:text-base lg:text-2xl 2xl:text-4xl font-bold mb-6 text-[#7b97ca]">
+        <div class="w-full lg:w-1/2">
+          <h2 class="text-lg lg:text-2xl xl:text-4xl font-bold leading-6 lg:leading-normal mb-4 lg:mb-6 text-[#7b97ca]">
             Providing Professional Stock Information Consulting Services
           </h2>
-          <p class="text-xs md:text-base lg:text-sm 2xl:text-lg text-justify md:leading-4 2xl:leading-6">
+          <p class="text-sm lg:text-sm xl:text-lg text-justify leading-4 xl:leading-6">
             We provide stock advisory services, covering US stock information, industry
             trends, economic data, financial news, etc. We are committed to offering you
             comprehensive market analysis and investment advice to assist you in making
             wise investment decisions.
           </p>
           <br />
-          <p class="text-xs lg:text-sm 2xl:text-lg text-justify md:leading-4 2xl:leading-6">
+          <p class="text-sm lg:text-sm xl:text-lg text-justify leading-4 xl:leading-6">
             Whether you are a novice investor or an experienced trader, we can provide you
             with customized services to meet your needs and goals. With our professional
             team and extensive information resources, you will be able to better
@@ -55,80 +55,88 @@
 
     <!-- Section 3 - Right-aligned image -->
     <section class="py-8 bg-slate-700">
-      <div class="w-full text-center my-20">
-        <h2 class="text-4xl lg:text-3xl 2xl:text-6xl font-bold text-[#ffffff]">The Information of US Stocks</h2>
+      <div class="w-full text-center my-8 lg:my-20">
+        <h2 class="desktop tablet text-[26px] md:text-3xl xl:text-6xl font-bold text-[#ffffff]">The Information of US Stocks</h2>
+        <h2 class="mobile text-[26px] font-bold text-[#ffffff]">The Information of <br /> US Stocks</h2>
       </div>
-      <div class="container mx-auto px-4 flex items-center gap-8 mb-20">
-        <div class="w-1/2">
-          <h2 class="text-xs md:text-base lg:text-2xl 2xl:text-4xl font-bold mb-6 text-[#7b97ca]">What are US Stocks?</h2>
-          <p class="text-xs md:text-base lg:text-sm 2xl:text-lg text-justify md:leading-4 2xl:leading-6 text-[#ffffff]">
+      <div class="container mx-auto px-4 flex flex-col lg:flex-row items-center gap-4 lg:gap-8 mb-8 lg:mb-20">
+        <div class="w-full mobile">
+          <img src="/public/image/index/stocks.jpg" alt="Right Image" class="right-img" />
+        </div>
+        <div class="w-full tablet">
+          <img src="/public/image/index/stocks.jpg" alt="Right Image" class="right-img" />
+        </div>
+        <div class="w-full lg:w-1/2">
+          <h2 class="text-lg lg:text-2xl xl:text-4xl font-bold leading-6 lg:leading-normal mb-4 lg:mb-6 text-[#7b97ca]">What are US Stocks?</h2>
+          <p class="text-sm lg:text-sm xl:text-lg text-justify leading-4 xl:leading-6 text-[#ffffff]">
             US Stocks refers to stocks or shares of publicly traded companies that are
             listed on stock exchanges in the United States, such as the New York Stock
             Exchange (NYSE) or the NASDAQ Stock Market.
           </p>
           <br />
-          <p class="text-xs md:text-base lg:text-sm 2xl:text-lg text-justify md:leading-4 2xl:leading-6 text-[#ffffff]">
+          <p class="text-sm lg:text-sm xl:text-lg text-justify leading-4 xl:leading-6 text-[#ffffff]">
             These stocks represent ownership stakes in companies and can be bought and
             sold by investors through brokerage firms.
           </p>
           <br />
-          <p class="text-xs md:text-base lg:text-sm 2xl:text-lg text-justify md:leading-4 2xl:leading-6 text-[#ffffff]">
+          <p class="text-sm lg:text-sm xl:text-lg text-justify leading-4 xl:leading-6 text-[#ffffff]">
             Investing in US stocks provides individuals with the opportunity to
             participate in the ownership and potential profits of American companies.
           </p>
         </div>
-        <div class="w-1/2">
-          <img src="/public/index/stocks.jpg" alt="Right Image" class="right-img" />
+        <div class="w-1/2 desktop">
+          <img src="/public/image/index/stocks.jpg" alt="Right Image" class="right-img" />
         </div>
       </div>
     </section>
 
     <section class="py-8 bg-gray-50">
-      <div class="w-full text-center my-20">
-        <h2 class="text-4xl lg:text-3xl 2xl:text-6xl font-bold text-[#333333]">Why invest in the U.S. Market?</h2>
+      <div class="w-full text-center my-8 lg:my-20">
+        <h2 class="desktop tablet text-[26px] md:text-3xl xl:text-6xl font-bold text-[#333333]">Why invest in the U.S. Market?</h2>
+        <h2 class="mobile text-[26px] font-bold text-[#333333]">Why invest in the <br /> U.S. Market?</h2>
       </div>
-      <div class="container mx-auto px-4 mb-20">
-        <div class="w-full flex gap-8 mt-24">
-          <div class="w-1/3 card-item yellow">
+      <div class="container mx-auto px-4 mb-8 lg:mb-20">
+        <div class="w-full flex flex-col lg:flex-row items-center gap-4 lg:gap-8 mt-10 lg:mt-24">
+          <div class="w-full md:w-4/5 lg:w-1/3 card-item yellow">
             <div class="w-full flex flex-col justify-center items-center gap-8">
               <img
-                src="/public/index/capitalization.svg"
+                src="/public/image/index/capitalization.svg"
                 alt="icon"
                 class="icon i-yellow"
               />
-              <p class="text-2xl font-bold text-[#333333]">Better Capitalization</p>
+              <p class="text-sm md:text-xl lg:text-[16px] xl:text-2xl font-bold text-[#333333]">Better Capitalization</p>
             </div>
           </div>
-          <div class="w-1/3 card-item blue">
+          <div class="w-full md:w-4/5 lg:w-1/3 card-item blue">
             <div class="w-full flex flex-col justify-center items-center gap-8">
-              <img src="/public/index/liquid.svg" alt="icon" class="icon i-blue" />
-              <p class="text-2xl font-bold text-[#333333]">More Liquidity</p>
+              <img src="/public/image/index/liquid.svg" alt="icon" class="icon i-blue" />
+              <p class="text-sm md:text-xl lg:text-[16px] xl:text-2xl font-bold text-[#333333]">More Liquidity</p>
             </div>
           </div>
-          <div class="w-1/3 card-item green">
+          <div class="w-full md:w-4/5 lg:w-1/3 card-item green">
             <div class="w-full flex flex-col justify-center items-center gap-8">
-              <img src="/public/index/list.svg" alt="icon" class="icon i-green" />
-              <p class="text-2xl font-bold text-[#333333]">Greater Diversification</p>
+              <img src="/public/image/index/list.svg" alt="icon" class="icon i-green" />
+              <p class="text-sm md:text-xl lg:text-[16px] xl:text-2xl font-bold text-[#333333]">Greater Diversification</p>
             </div>
           </div>
         </div>
-        <div class="w-full flex gap-8 mt-8">
-          <div class="w-1/3 card-item red">
+        <div class="w-full flex flex-col lg:flex-row items-center gap-4 lg:gap-8 mt-4 lg:mt-8">
+          <div class="w-full md:w-4/5 lg:w-1/3 card-item red">
             <div class="w-full flex flex-col justify-center items-center gap-8">
-              <img src="/public/index/market.svg" alt="icon" class="icon i-red" />
-              <p class="text-2xl font-bold text-[#333333]">Market Transparency</p>
+              <img src="/public/image/index/market.svg" alt="icon" class="icon i-red" />
+              <p class="text-sm md:text-xl lg:text-[16px] xl:text-2xl font-bold text-[#333333]">Market Transparency</p>
             </div>
           </div>
-          <div class="w-1/3 card-item purple">
+          <div class="w-full md:w-4/5 lg:w-1/3 card-item purple">
             <div class="w-full flex flex-col justify-center items-center gap-8">
-              <img src="/public/index/low.svg" alt="icon" class="icon i-purple" />
-              <p class="text-2xl font-bold text-[#333333]">Lower Currency Risk</p>
+              <img src="/public/image/index/low.svg" alt="icon" class="icon i-purple" />
+              <p class="text-sm md:text-xl lg:text-[16px] xl:text-2xl font-bold text-[#333333]">Lower Currency Risk</p>
             </div>
           </div>
-          <div class="w-1/3 card-item pink">
+          <div class="w-full md:w-4/5 lg:w-1/3 card-item pink">
             <div class="w-full flex flex-col justify-center items-center gap-8">
-              <img src="/public/index/bulb.svg" alt="icon" class="icon i-pink" />
-              <p class="text-2xl font-bold text-[#333333]">Innovation</p>
+              <img src="/public/image/index/bulb.svg" alt="icon" class="icon i-pink" />
+              <p class="text-sm md:text-xl lg:text-[16px] xl:text-2xl font-bold text-[#333333]">Innovation</p>
             </div>
           </div>
         </div>
@@ -136,10 +144,10 @@
     </section>
 
     <section class="py-8 bg-[#7b97ca]">
-      <div class="w-full text-center my-20">
-        <h2 class="text-4xl lg:text-3xl 2xl:text-6xl font-bold text-[#ffffff]">CONTACT US</h2>
+      <div class="w-full text-center my-8 lg:my-20">
+        <h2 class="text-[26px] md:text-3xl xl:text-6xl font-bold text-[#ffffff]">CONTACT US</h2>
       </div>
-      <div class="container mx-auto px-4 flex items-center gap-8 mb-20 flex flex-col content-center">
+      <div class="container mx-auto px-4 flex items-center gap-8 mb-8 lg:mb-20 flex flex-col content-center">
         <div class="w-full text-center text-white">
           <p class="text-lg">
             B-15-2, 3, 4, Northpoint Mid Valley, Jalan Medan Syed Putra Utara, 59200 Kuala
@@ -149,12 +157,11 @@
         </div>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d995.9760589739662!2d101.6770845!3d3.120028!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc498e7b3f64f5%3A0x54f04dce6ddf7aa2!2sNorthpoint!5e0!3m2!1sen!2smy!4v1714040400763!5m2!1sen!2smy"
-          height="500"
           style="border: 0"
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-          class="md:w-full xl:w-[1000px]"
+          class="w-full h-[350px] xl:w-[1000px] xl:h[500px]"
         ></iframe>
       </div>
     </section>
@@ -181,10 +188,23 @@ img {
   height: auto;
 }
 
+
+.tablet{
+  display: none;
+}
+
+.desktop{
+  display: block;
+}
+
+.mobile{
+  display: none;
+}
+
 .hero {
   /* Adjust the height of the hero section */
   height: 33.854vw;
-  background: url(/public/index/laptop.jpg) no-repeat;
+  background: url(/public/image/index/laptop.jpg) no-repeat;
   background-size: cover;
   color: #ffffff;
 }
@@ -279,5 +299,56 @@ img {
 }
 .card-item.pink:hover {
   border: 1px solid #ca7ba9;
+}
+
+@media screen and (max-width: 767px) {
+  .desktop{
+    display: none;
+  }
+
+  .tablet{
+    display: none;
+  }
+
+  .mobile{
+    display: block;
+  }
+
+  .hero{
+    height: 100%;
+    background-position: 60%;
+  }
+  
+  .left-img,
+  .right-img {
+    width: 100%;
+    height: 45.462vw;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .desktop{
+    display: none;
+  }
+  .tablet{
+    display: block;
+  }
+
+  .mobile{
+    display: none;
+  }
+
+  .hero{
+    height: 100%;
+    background-position: 60%;
+  }
+  
+  .left-img,
+  .right-img {
+    width: 100%;
+    height: 45.462vw;
+    object-fit: cover;
+  }
 }
 </style>
